@@ -124,6 +124,8 @@ Başvuru için müşteriden istenecek belgeleri (örn. vekaletname) burada tanı
 - **Belge Adı**: Müşteriye gösterilecek belge adı (çok dilli).
 - **Dosya**: Müşterinin yüklemesi gereken örnek dosya (PDF, DOCX vb.) — boş bırakılırsa örnek dosya gösterilmez. Bu dosya müşteri tarafından indirilir, taranır, imzalanıp kaşelenir ve sipariş sonrası hizmet detayından tekrar yüklenir.
 
+---
+
 ### SEO Ayarları <span id="seo-ayarlari"></span>
 ![SEO Ayarları](https://fonwise.com/addons/wisecp-marka-tescil/marka-tescil-seo-ayarlari.jpg)
 
