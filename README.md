@@ -134,7 +134,7 @@ Bağlı bir ürün grubu (kategori) seçtiyseniz, o kategori adresine gelen ziya
 Müşterileriniz başvuru formuna iki şekilde ulaşabilir:
 
 - **Native adres**: yukarıda tanımladığınız SEO slug'ı (örn. `siteniz.com/marka-tescili`).
-- **FonPageBuilder sayfası**: aynı formu, kendi tasarladığınız zengin bir sayfaya widget olarak gömebilirsiniz — bkz. [FonPageBuilder ile Sayfa Zenginleştirme](#fonpagebuilder-ile-sayfa-zenginleştirme).
+- **FonPageBuilder sayfası**: aynı formu, kendi tasarladığınız zengin bir sayfaya widget olarak gömebilirsiniz — bkz. [FonPageBuilder ile Sayfa Zenginleştirme](#fonpagebuilder-ile-sayfa-zenginlestirme).
 
 Form üzerinde müşteri marka adını yazar, sınıflarını seçer (ücret anlık hesaplanır) ve sepete ekler. Tanımlı kampanya fiyatlarınız varsa (bkz. [Admin Ayarları → Fiyat](#2-fiyat)), formun altında müşteriye bunları gösteren bir "Kampanyalı Fiyatlar" şeridi otomatik olarak görünür — ayrıca bir işlem yapmanız gerekmez.
 
