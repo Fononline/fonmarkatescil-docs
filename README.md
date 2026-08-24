@@ -80,7 +80,7 @@ Tüm yapılandırma, yönetim paneli → Ürünler → **FonMarkaTescil** üzeri
   - **Kenarlık Kullan**: Başvuru formu listeleme ve özet kartlarında kenarlık kullanmak istiyorsanız etkinleştirin.
   - **Gölge Kullan**: Başvuru formu listeleme ve özet kartlarında gölge kullanmak istiyorsanız etkinleştirin.
 
-### Fiyat Ayarları
+### Fiyat
 ![Fiyatlandırma Ayarlar](https://fonwise.com/addons/wisecp-marka-tescil/marka-tescil-fiyat-ayarlari.jpg)
 
 Fiyatlar aylık değil, başvuru başına ücrettir. TÜRKPATENT resmi harç tutarları her yıl güncellenmektedir. Marka sınıfı seçimine göre kademeli ücretlendirme burada tanımlanır:
@@ -90,7 +90,7 @@ Fiyatlar aylık değil, başvuru başına ücrettir. TÜRKPATENT resmi harç tut
 - **Hizmet Bedeli (Tek Sınıf)**: Tek bir sınıf için geçerli hizmet bedeli ücretidir. Ek sınıflar için ayrıca ücretlendirme yapılır. Hizmet bedeli baz ücret olarak bu tutar kullanılır.
 - **Hizmet Bedeli (Ek Sınıf)**: İlk sınıf sonrasında seçilen her ek sınıf için eklenecek hizmet tutarıdır. Hizmet bedeli baz ücreti ile aynı ücret olabilir veya farklı olabilir.
 
-> ⚠️ Fatura tutarı doğrudan **seçilen sınıf sayısına** göre hesaplanır. Bu yüzden bir sipariş oluşturulduktan sonra sınıf *sayısının* değiştirilmesine sistem tarafından izin verilmez (bkz. [Sipariş Yönetimi](#sipariş-yönetimi)).
+> ⚠️ Fatura tutarı doğrudan **seçilen sınıf sayısına** göre hesaplanır. Bu yüzden bir sipariş oluşturulduktan sonra sınıf *sayısının* değiştirilmesine sistem tarafından izin verilmez (bkz. [Sipariş Yönetimi](#siparis-yonetimi)).
 
 #### Kampanya Fiyatları (Sınıf Sayısına Özel)
 
@@ -100,7 +100,7 @@ Aynı sekmede, belirli bir sınıf sayısı için yukarıdaki baz+ek sınıf for
 >
 > Aynı sınıf sayısı için birden fazla satır girerseniz sonuncusu geçerli olur. Bir sınıf sayısı için kampanya tanımlı değilse, o sınıf sayısında normal baz+ek sınıf formülü kullanılmaya devam eder.
 
-Tanımladığınız kampanyalar, başvuru formunda müşteriye de otomatik olarak gösterilir — bkz. [Müşteri Deneyimi](#müşteri-deneyimi).
+Tanımladığınız kampanyalar, başvuru formunda müşteriye de otomatik olarak gösterilir — bkz. [Müşteri Deneyimi](#musteri-deneyimi).
 
 ### Marka Sınıfları (Nice Sınıflandırması)
 ![Marka Tescil Sınıfları](https://fonwise.com/addons/wisecp-marka-tescil/marka-tescil-sinif-ayarlari.jpg)
@@ -118,7 +118,7 @@ Başvuru için müşteriden istenecek belgeleri (örn. vekaletname) burada tanı
 - **Belge Adı**: Müşteriye gösterilecek belge adı (çok dilli).
 - **Dosya**: Müşterinin yüklemesi gereken örnek dosya (PDF, DOCX vb.) — boş bırakılırsa örnek dosya gösterilmez. Bu dosya müşteri tarafından indirilir, taranır, imzalanıp kaşelenir ve sipariş sonrası hizmet detayından tekrar yüklenir.
 
-### SEO Ayarları
+### SEO
 ![SEO Ayarları](https://fonwise.com/addons/wisecp-marka-tescil/marka-tescil-seo-ayarlari.jpg)
 
 Başvuru formunun her dil için görüneceği **SEO dostu adresi** burada belirlersiniz (örn. Türkçe için `marka-tescili`, İngilizce için `trademark-application`). Slug'ları girip kaydettiğinizde, sayfa aşağıda sizin için hazır bir `.htaccess` kod bloğu üretir.
