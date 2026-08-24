@@ -152,10 +152,10 @@ Sipariş tamamlandıktan sonra müşteri, kendi panelinden (Siparişlerim) süre
 
 ![Süreç Takip](https://fonwise.com/addons/wisecp-marka-tescil/modul-surec-takip.jpg)
 
-1. **1. Başvuru Alındı** — sipariş oluşturulduğu an.
-2. **2. TÜRKPATENT'e Başvuru Yapıldı** — siz başvuru numarasını girdiğinizde.
-3. **3. İnceleme Sürecinde** — otomatik ara aşama, herhangi bir işlem gerekmez.
-4. **4. Sonuçlandı** — siz sonucu (tescil/ret/itiraz) işlediğinizde.
+1. **Başvuru Alındı** — sipariş oluşturulduğu an.
+2. **TÜRKPATENT'e Başvuru Yapıldı** — siz başvuru numarasını girdiğinizde.
+3. **İnceleme Sürecinde** — otomatik ara aşama, herhangi bir işlem gerekmez.
+4. **Sonuçlandı** — siz sonucu (tescil/ret/itiraz) işlediğinizde.
 
 Aynı ekrandan müşteri, tanımladığınız belgeleri de yükleyip durumlarını (beklemede/onaylandı/reddedildi) görebilir.
 
