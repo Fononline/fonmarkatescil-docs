@@ -40,9 +40,14 @@ WISECP'te "ürün" (Product) modülleri kendi başına genel-erişimli bir sayfa
 1. **Modül dosyalarını yükleyin.** Her iki modül klasörünü de WISECP kurulumunuza kopyalayın:
    - `coremio/modules/Product/FonMarkaTescil/`
    - `coremio/modules/Addons/FonMarkaTescilApp/`
-2. **FonMarkaTescilApp Modülünü Etkinleştirin.** Yönetim paneli → Araçlar → Eklentiler menüsüne tıklayın ve **FonMarkaTescilApp** (Eklenti) için "Aktifleştir" işlemini yapın. 
-3. **FonMarkaTescil Modülü Yapılandırın.** Yönetim paneli → Ürünler / Hizmetler → Ürün/Hizmet Yönetimi → Ürün / Hizmet Api Yönetimi menüsünü tıklayın ve buradaki **Diğer** bölümündeki ** Yönet** düğmesine tıklayın. **Tüm Modüller** sekmesine tıklayarak **Marka Tescil Modülü** modülünü bularak tıklayın ve modülün yapılandırma ekranını açın.
-4. Devam etmeden önce [Admin Ayarları](#admin-ayarları) bölümündeki adımları sırasıyla tamamlayın.
+2. **Ürün Grubu Oluşturun.** Yönetim Paneli →  Ürünler / Hizmetler → Ürün/Hizmet Yönetimi → Ürün / Hizmet Grubu Oluştur menüsüne tıklayın ve yeni bir hizmet grubu oluşturun. Başlık olarak istediğiniz bir başlığı verin (Örneğin: **Marka Tescil**) ve grubu kaydedin. Bu Ürün Grubu daha sonra modül ayarlarından seçilecektir.
+3. **Ürün Oluşturun.** Yönetim Paneli →  Ürünler / Hizmetler menüsü altından 2. adımda oluşturduğunuz Ürün Hizmet Grubuna (Örneğin: **Marka Tescil**) ait menüye tıklayın. Açılan sayfada yeni bir ürün oluşturun. Bu Ürün daha sonra modül ayarlarından seçilecektir.
+   - **Ürün Adı:** Ürün Adı olarak bir ad belirleyin. Örneğin **Marka Tescil Başvurusu**
+   - **Otomasyon Ayarları:** Otomasyon Ayarları sekmesinde **Modül** olarak **Marka Tescil Modülü** modülünü seçiniz. **Otomatik Kurulum** seçeneğini işaretlemeyin.
+   - **Fiyatlandırma:** Fiyatlandırma sekmesine geçin ve **Tek Sefer** döngüsüne sahip tek bir fiyat oluşturun ve **Tutar** olarak **0** (sıfır) girin.
+4. **FonMarkaTescilApp Modülünü Etkinleştirin.** Yönetim Paneli → Araçlar → Eklentiler menüsüne tıklayın ve **Marka Tescil (Başvuru Sayfası)** (Eklenti) için "Aktifleştir" işlemini yapın. 
+5. **FonMarkaTescil Modülünü Yapılandırın.** Yönetim paneli → Ürünler / Hizmetler → Ürün/Hizmet Yönetimi → Ürün / Hizmet Api Yönetimi menüsünü tıklayın ve buradaki **Diğer** bölümündeki ** Yönet** düğmesine tıklayın. **Tüm Modüller** sekmesine tıklayarak **Marka Tescil Modülü** modülünü bularak tıklayın ve modülün yapılandırma ekranını açın.
+6. Devam etmeden önce [Admin Ayarları](#admin-ayarları) bölümündeki adımları sırasıyla tamamlayın.
 
 
 ### Gereksinimler
@@ -66,8 +71,8 @@ Tüm yapılandırma, yönetim paneli → Ürünler → **FonMarkaTescil** üzeri
 - **Ön Bilgilendirme Metni**: Başvuru formunun altında görünecek bilgilendirme metni (çok dilli). Boş bırakılırsa formun altında hiçbir metin gösterilmez.
 - **Buton Metni**: Formdaki "sepete ekle" butonunun metni (çok dilli).
 - **Bağlı Ürün ve Kategori**: Başvuru formunun (Addon sayfası) hangi ürüne sepete eklerken bağlanacağı ve bu ürünün hangi kategoride (ürün grubu) yer aldığı burada seçilir.
-  - **Bağlı Ürün**: Müşterinin sipariş sırasında fiilen satın alacağı WISECP ürününü seçin (fatura ve ödeme bu ürün üzerinden işler).
-  - **Bağlı Ürün Grubu (Kategori)**: Müşterinin sipariş sırasında fiilen satın alacağı WISECP ürününün ait olduğu kategoriyi seçin (SEO Ayarları sekmesinde bu kategorinin adresini başvuru formuna yönlendiren .htaccess kodu üretmek için kullanılır.).
+  - **Bağlı Ürün**: Müşterinin sipariş sırasında fiilen satın alacağı WISECP ürününü seçin (fatura ve ödeme bu ürün üzerinden işler). Bu ürünü **2. Kurulum** talimatlarındaki **3. adımda** oluşturmuş olmalısınız.
+  - **Bağlı Ürün Grubu (Kategori)**: Müşterinin sipariş sırasında fiilen satın alacağı WISECP ürününün ait olduğu kategoriyi seçin (SEO Ayarları sekmesinde bu kategorinin adresini başvuru formuna yönlendiren .htaccess kodu üretmek için kullanılır.). Bu ürüngrubunu **2. Kurulum** talimatlarındaki **2. adımda** oluşturmuş olmalısınız.
 - **Görünüm Ayarları**: Başvuru formundaki düğme, kenarlık ve seçili sınıf renklerini özelleştirin.
   - **Genel Vurgu Rengi**: Düğmeler, aktif filtreler ve odaklanmış giriş alanları için kullanılır.
   - **Mal Sınıfları Rengi**: Mal (1–34) sınıflarının rozeti, seçili satır kenarlığı ve arkaplanı için kullanılır.
