@@ -63,7 +63,7 @@ WISECP'te "ürün" (Product) modülleri kendi başına genel-erişimli bir sayfa
 
 Tüm yapılandırma, yönetim paneli → Ürünler → **FonMarkaTescil** üzerinden, aşağıdaki sekmelerle yapılır.
 
-### Genel Ayarlar
+### Genel Ayarlar <span id="genel-ayarlar"></span>
 ![Genel Ayarlar](https://fonwise.com/addons/wisecp-marka-tescil/marka-tescil-genel-ayarlar.jpg)
 
 - **Widget Başlığı**: Başvuru formunun üstünde görünecek başlık metni (çok dilli).
@@ -80,7 +80,7 @@ Tüm yapılandırma, yönetim paneli → Ürünler → **FonMarkaTescil** üzeri
   - **Kenarlık Kullan**: Başvuru formu listeleme ve özet kartlarında kenarlık kullanmak istiyorsanız etkinleştirin.
   - **Gölge Kullan**: Başvuru formu listeleme ve özet kartlarında gölge kullanmak istiyorsanız etkinleştirin.
 
-### Fiyat
+### Fiyat Ayarları <span id="fiyat-ayarlari"></span>
 ![Fiyatlandırma Ayarlar](https://fonwise.com/addons/wisecp-marka-tescil/marka-tescil-fiyat-ayarlari.jpg)
 
 Fiyatlar aylık değil, başvuru başına ücrettir. TÜRKPATENT resmi harç tutarları her yıl güncellenmektedir. Marka sınıfı seçimine göre kademeli ücretlendirme burada tanımlanır:
@@ -102,14 +102,14 @@ Aynı sekmede, belirli bir sınıf sayısı için yukarıdaki baz+ek sınıf for
 
 Tanımladığınız kampanyalar, başvuru formunda müşteriye de otomatik olarak gösterilir — bkz. [Müşteri Deneyimi](#musteri-deneyimi).
 
-### Marka Sınıfları (Nice Sınıflandırması)
+### Marka Sınıfları (Nice Sınıflandırması) <span id="marka-siniflari"></span>
 ![Marka Tescil Sınıfları](https://fonwise.com/addons/wisecp-marka-tescil/marka-tescil-sinif-ayarlari.jpg)
 
 Nice Sınıflandırması'nın 45 sınıfının tamamı sistemde hazır tanımlıdır. Bu sekmeden **hangi sınıfların** müşterilere sunulacağını (aktif/pasif) seçersiniz. Yalnızca burada aktif işaretlenen sınıflar başvuru formunda ve admin düzenleme ekranında seçilebilir olur.
 
 - **Özel Notlar**: Her sınıf için, müşteriye başvuru formunda gösterilecek kısa bir açıklama notu girebilirsiniz (örn. "Bu sınıf, giyim ve aksesuar ürünlerini kapsar"). Boş bırakılırsa hiçbir not gösterilmez.
 
-### Örnek Belgeler
+### Örnek Belgeler <span id="ornek-belgeler"></span>
 ![Gerekli Örnek Belgeler](https://fonwise.com/addons/wisecp-marka-tescil/marka-tescil-belge-ayarlari.jpg)
 
 Başvuru için müşteriden istenecek belgeleri (örn. vekaletname) burada tanımlarsınız — her belge için ad ve bir FontAwesome simgesi (örn. `fa-regular fa-file-lines`) girilir. Müşteri panelinde bu tanımlara göre yükleme alanları otomatik oluşur.
@@ -118,7 +118,7 @@ Başvuru için müşteriden istenecek belgeleri (örn. vekaletname) burada tanı
 - **Belge Adı**: Müşteriye gösterilecek belge adı (çok dilli).
 - **Dosya**: Müşterinin yüklemesi gereken örnek dosya (PDF, DOCX vb.) — boş bırakılırsa örnek dosya gösterilmez. Bu dosya müşteri tarafından indirilir, taranır, imzalanıp kaşelenir ve sipariş sonrası hizmet detayından tekrar yüklenir.
 
-### SEO
+### SEO Ayarları <span id="seo-ayarlari"></span>
 ![SEO Ayarları](https://fonwise.com/addons/wisecp-marka-tescil/marka-tescil-seo-ayarlari.jpg)
 
 Başvuru formunun her dil için görüneceği **SEO dostu adresi** burada belirlersiniz (örn. Türkçe için `marka-tescili`, İngilizce için `trademark-application`). Slug'ları girip kaydettiğinizde, sayfa aşağıda sizin için hazır bir `.htaccess` kod bloğu üretir.
@@ -136,7 +136,7 @@ Müşterileriniz başvuru formuna iki şekilde ulaşabilir:
 - **Native adres**: yukarıda tanımladığınız SEO slug'ı (örn. `siteniz.com/marka-tescili`).
 - **FonPageBuilder sayfası**: aynı formu, kendi tasarladığınız zengin bir sayfaya widget olarak gömebilirsiniz — bkz. [FonPageBuilder ile Sayfa Zenginleştirme](#fonpagebuilder-ile-sayfa-zenginlestirme).
 
-Form üzerinde müşteri marka adını yazar, sınıflarını seçer (ücret anlık hesaplanır) ve sepete ekler. Tanımlı kampanya fiyatlarınız varsa (bkz. [Admin Ayarları → Fiyat](#2-fiyat)), formun altında müşteriye bunları gösteren bir "Kampanyalı Fiyatlar" şeridi otomatik olarak görünür — ayrıca bir işlem yapmanız gerekmez.
+Form üzerinde müşteri marka adını yazar, sınıflarını seçer (ücret anlık hesaplanır) ve sepete ekler. Tanımlı kampanya fiyatlarınız varsa (bkz. [Admin Ayarları → Fiyat](#fiyat-ayarlari)), formun altında müşteriye bunları gösteren bir "Kampanyalı Fiyatlar" şeridi otomatik olarak görünür — ayrıca bir işlem yapmanız gerekmez.
 
 ![Kapanyalı Fiyat Bildirimi](https://fonwise.com/addons/wisecp-marka-tescil/modul-kampanyali-fiyat-bildirim.jpg)
 
@@ -188,20 +188,20 @@ Sitenizde **FonPageBuilder** kuruluysa, başvuru formunu tek başına bir sayfay
 
 ### ⚠️ Önemli: aynı adresi iki kez kullanmayın
 
-FonMarkaTescilApp'in kendisinin, [SEO sekmesinde](#5-seo) tanımladığınız sabit bir adresi vardır. FonPageBuilder ile **yeni bir özel sayfa** oluşturursanız, bu sayfa da kendi girdiğiniz slug'a sahip ayrı bir fiziksel sayfa olarak oluşur.
+FonMarkaTescilApp'in kendisinin, [SEO sekmesinde](#seo-ayarlari) tanımladığınız sabit bir adresi vardır. FonPageBuilder ile **yeni bir özel sayfa** oluşturursanız, bu sayfa da kendi girdiğiniz slug'a sahip ayrı bir fiziksel sayfa olarak oluşur.
 
 **Bu iki özelliği aynı adreste birlikte kullanmayın** — yani FonPageBuilder sayfanıza, FonMarkaTescil'in SEO ayarlarında zaten tanımlı olan slug'ın **aynısını** vermeyin. Aksi halde `.htaccess` yönlendirmesi FonPageBuilder sayfanızı gölgeler ve o sayfa hiçbir zaman gösterilmez.
 
 Doğru kullanım şu iki yoldan biridir:
 
 1. **Sadece native adresi kullanın** — FonPageBuilder ile ayrı bir sayfa oluşturmayın, SEO sekmesindeki adres yeterli.
-2. **Sadece FonPageBuilder sayfasını kullanın** — bu durumda [SEO sekmesindeki](#5-seo) slug alanlarını **hiç doldurmanıza ve `.htaccess`'e o kodu eklemenize gerek yoktur** — asıl müşteriye göstereceğiniz/menüden link vereceğiniz adres, FonPageBuilder ile oluşturduğunuz, kendi slug'ına sahip sayfa olsun.
+2. **Sadece FonPageBuilder sayfasını kullanın** — bu durumda [SEO sekmesindeki](#seo-ayarlari) slug alanlarını **hiç doldurmanıza ve `.htaccess`'e o kodu eklemenize gerek yoktur** — asıl müşteriye göstereceğiniz/menüden link vereceğiniz adres, FonPageBuilder ile oluşturduğunuz, kendi slug'ına sahip sayfa olsun.
 
 Her iki adresi de bilinçli olarak canlı tutmak isterseniz (örn. eski bir bağlantı için), menü ve iç bağlantılarınızı her zaman zenginleştirilmiş (FonPageBuilder) sayfaya verin; native sayfayı hiçbir yerden link vermeden bırakın.
 
 #### Bağlı ürün grubu (kategori) yönlendirmesi kullanıyorsanız
 
-SEO sekmesinde bir ürün grubunu (kategoriyi) bu modüle bağladıysanız, sayfa aynı zamanda o kategori adresine gelen ziyaretçileri **native slug'a** yönlendiren ek bir `.htaccess` kodu da üretir (bkz. [SEO sekmesi](#5-seo)).
+SEO sekmesinde bir ürün grubunu (kategoriyi) bu modüle bağladıysanız, sayfa aynı zamanda o kategori adresine gelen ziyaretçileri **native slug'a** yönlendiren ek bir `.htaccess` kodu da üretir (bkz. [SEO sekmesi](#seo-ayarlari)).
 
 **FonPageBuilder sayfasını kullanmayı seçtiyseniz, bu yönlendirme kodunun hedefini de değiştirmeniz gerekir** — kod, ziyaretçiyi artık kullanmadığınız native forma değil, FonPageBuilder ile oluşturduğunuz sayfanın slug'ına göndermelidir. Aksi halde kategori sayfasına gelen ziyaretçiler, zenginleştirilmiş sayfanız yerine hâlâ çıplak forma yönlendirilir.
 
