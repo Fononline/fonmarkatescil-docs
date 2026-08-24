@@ -8,17 +8,17 @@ Bu kılavuz, **FonMarkaTescil** marka tescil başvuru yönetim modülünün WISE
 
 ## İçindekiler
 
-1. [Genel Bakış](#genel-bakış)
+1. [Genel Bakış](#genel-bakis)
 2. [Kurulum](#kurulum)
-3. [Admin Ayarları](#admin-ayarları)
-4. [Müşteri Deneyimi](#müşteri-deneyimi)
-5. [Sipariş Yönetimi](#sipariş-yönetimi)
-6. [FonPageBuilder ile Sayfa Zenginleştirme](#fonpagebuilder-ile-sayfa-zenginleştirme)
-7. [Sık Sorulan Sorular](#sık-sorulan-sorular)
+3. [Admin Ayarları](#admin-ayarlari)
+4. [Müşteri Deneyimi](#musteri-deneyimi)
+5. [Sipariş Yönetimi](#siparis-yonetimi)
+6. [FonPageBuilder ile Sayfa Zenginleştirme](#fonpagebuilder-ile-sayfa-zenginlestirme)
+7. [Sık Sorulan Sorular](#sik-sorulan-sorular)
 
 ---
 
-## 1. Genel Bakış
+## 1. Genel Bakış <span id="genel-bakis"></span>
 
 FonMarkaTescil, müşterilerinizin marka tescil başvurularını sizin WISECP panelinizden sipariş vermesini, belge yüklemesini ve sürecin her aşamasını takip etmesini sağlayan bir hizmet yönetim sistemidir. Modül, gerçek bir marka vekilliği hizmeti vermez — sizin (veya anlaştığınız bir marka vekilinin) TÜRKPATENT nezdinde yürüttüğü süreci, sipariş ve iletişim katmanı olarak müşteriye şeffaf bir şekilde yansıtır.
 
@@ -35,7 +35,7 @@ WISECP'te "ürün" (Product) modülleri kendi başına genel-erişimli bir sayfa
 
 ---
 
-## 2. Kurulum
+## 2. Kurulum <span id="kurulum"></span>
 
 1. **Modül dosyalarını yükleyin.** Her iki modül klasörünü de WISECP kurulumunuza kopyalayın:
    - `coremio/modules/Product/FonMarkaTescil/`
@@ -47,7 +47,7 @@ WISECP'te "ürün" (Product) modülleri kendi başına genel-erişimli bir sayfa
    - **Fiyatlandırma:** Fiyatlandırma sekmesine geçin ve **Tek Sefer** döngüsüne sahip tek bir fiyat oluşturun ve **Tutar** olarak **0** (sıfır) girin.
 4. **FonMarkaTescilApp Modülünü Etkinleştirin.** Yönetim Paneli → Araçlar → Eklentiler menüsüne tıklayın ve **Marka Tescil (Başvuru Sayfası)** (Eklenti) için "Aktifleştir" işlemini yapın. 
 5. **FonMarkaTescil Modülünü Yapılandırın.** Yönetim paneli → Ürünler / Hizmetler → Ürün/Hizmet Yönetimi → Ürün / Hizmet Api Yönetimi menüsünü tıklayın ve buradaki **Diğer** bölümündeki ** Yönet** düğmesine tıklayın. **Tüm Modüller** sekmesine tıklayarak **Marka Tescil Modülü** modülünü bularak tıklayın ve modülün yapılandırma ekranını açın.
-6. Devam etmeden önce [Admin Ayarları](#admin-ayarları) bölümündeki adımları sırasıyla tamamlayın.
+6. Devam etmeden önce [Admin Ayarları](#admin-ayarlari) bölümündeki adımları sırasıyla tamamlayın.
 
 
 ### Gereksinimler
@@ -59,7 +59,7 @@ WISECP'te "ürün" (Product) modülleri kendi başına genel-erişimli bir sayfa
 
 ---
 
-## 3. Admin Ayarları
+## 3. Admin Ayarları <span id="admin-ayarlari"></span>
 
 Tüm yapılandırma, yönetim paneli → Ürünler → **FonMarkaTescil** üzerinden, aşağıdaki sekmelerle yapılır.
 
@@ -129,7 +129,7 @@ Bağlı bir ürün grubu (kategori) seçtiyseniz, o kategori adresine gelen ziya
 
 ---
 
-## 4. Müşteri Deneyimi
+## 4. Müşteri Deneyimi <span id="musteri-deneyimi"></span>
 
 Müşterileriniz başvuru formuna iki şekilde ulaşabilir:
 
@@ -153,7 +153,7 @@ Aynı ekrandan müşteri, tanımladığınız belgeleri de yükleyip durumların
 
 ---
 
-## 5. Sipariş Yönetimi
+## 5. Sipariş Yönetimi <span id="siparis-yonetimi"></span>
 
 Bir siparişin detay sayfasında (Siparişler → ilgili sipariş → **Otomasyon Ayarları** sekmesi) şu araçlar bulunur:
 
@@ -182,7 +182,7 @@ Süreç sonuçlandığında (Tescil Edildi / Reddedildi / İtiraz Edildi / Diğe
 
 ---
 
-## 6. FonPageBuilder ile Sayfa Zenginleştirme
+## 6. FonPageBuilder ile Sayfa Zenginleştirme <span id="fonpagebuilder-ile-sayfa-zenginlestirme"></span>
 
 Sitenizde **FonPageBuilder** kuruluysa, başvuru formunu tek başına bir sayfaya hapsetmek zorunda değilsiniz. Sayfa oluşturucudaki widget listesinde **"Marka Tescil Başvuru Formu"** adlı bir bileşen görürsünüz (yalnızca FonMarkaTescil modülü kurulu ve aktifken listede görünür) — bu widget'ı, üstüne bir tanıtım (hero) bölümü, altına detaylı bilgilendirme ekleyebileceğiniz herhangi bir sayfaya sürükleyip bırakabilirsiniz. Widget'ın kendine ait bir ayarı yoktur; formun kendisi (başlık, buton metni, sınıflar vb.) yine FonMarkaTescil'in kendi admin ayarlarından yönetilmeye devam eder.
 
