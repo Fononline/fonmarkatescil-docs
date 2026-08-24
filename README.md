@@ -80,6 +80,8 @@ Tüm yapılandırma, yönetim paneli → Ürünler → **FonMarkaTescil** üzeri
   - **Kenarlık Kullan**: Başvuru formu listeleme ve özet kartlarında kenarlık kullanmak istiyorsanız etkinleştirin.
   - **Gölge Kullan**: Başvuru formu listeleme ve özet kartlarında gölge kullanmak istiyorsanız etkinleştirin.
 
+---
+
 ### Fiyat Ayarları <span id="fiyat-ayarlari"></span>
 ![Fiyatlandırma Ayarlar](https://fonwise.com/addons/wisecp-marka-tescil/marka-tescil-fiyat-ayarlari.jpg)
 
@@ -102,12 +104,16 @@ Aynı sekmede, belirli bir sınıf sayısı için yukarıdaki baz+ek sınıf for
 
 Tanımladığınız kampanyalar, başvuru formunda müşteriye de otomatik olarak gösterilir — bkz. [Müşteri Deneyimi](#musteri-deneyimi).
 
+---
+
 ### Marka Sınıfları (Nice Sınıflandırması) <span id="marka-siniflari"></span>
 ![Marka Tescil Sınıfları](https://fonwise.com/addons/wisecp-marka-tescil/marka-tescil-sinif-ayarlari.jpg)
 
 Nice Sınıflandırması'nın 45 sınıfının tamamı sistemde hazır tanımlıdır. Bu sekmeden **hangi sınıfların** müşterilere sunulacağını (aktif/pasif) seçersiniz. Yalnızca burada aktif işaretlenen sınıflar başvuru formunda ve admin düzenleme ekranında seçilebilir olur.
 
 - **Özel Notlar**: Her sınıf için, müşteriye başvuru formunda gösterilecek kısa bir açıklama notu girebilirsiniz (örn. "Bu sınıf, giyim ve aksesuar ürünlerini kapsar"). Boş bırakılırsa hiçbir not gösterilmez.
+
+---
 
 ### Örnek Belgeler <span id="ornek-belgeler"></span>
 ![Gerekli Örnek Belgeler](https://fonwise.com/addons/wisecp-marka-tescil/marka-tescil-belge-ayarlari.jpg)
@@ -144,10 +150,10 @@ Sipariş tamamlandıktan sonra müşteri, kendi panelinden (Siparişlerim) süre
 
 ![Süreç Takip](https://fonwise.com/addons/wisecp-marka-tescil/modul-surec-takip.jpg)
 
-1. **Başvuru Alındı** — sipariş oluşturulduğu an.
-2. **TÜRKPATENT'e Başvuru Yapıldı** — siz başvuru numarasını girdiğinizde.
-3. **İnceleme Sürecinde** — otomatik ara aşama, herhangi bir işlem gerekmez.
-4. **Sonuçlandı** — siz sonucu (tescil/ret/itiraz) işlediğinizde.
+1. **1. Başvuru Alındı** — sipariş oluşturulduğu an.
+2. **2. TÜRKPATENT'e Başvuru Yapıldı** — siz başvuru numarasını girdiğinizde.
+3. **3. İnceleme Sürecinde** — otomatik ara aşama, herhangi bir işlem gerekmez.
+4. **4. Sonuçlandı** — siz sonucu (tescil/ret/itiraz) işlediğinizde.
 
 Aynı ekrandan müşteri, tanımladığınız belgeleri de yükleyip durumlarını (beklemede/onaylandı/reddedildi) görebilir.
 
