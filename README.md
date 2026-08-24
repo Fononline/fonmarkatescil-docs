@@ -2,7 +2,7 @@
 
 Bu kılavuz, **FonMarkaTescil** marka tescil başvuru yönetim modülünün WISECP panelinize kurulumunu, yapılandırılmasını ve gündelik kullanımını anlatır.
 
-![Marka Tescil Tanıtım Görseli](https://fonwise.com/addons/wisecp-marka-tescil/marka-tescil-tanitim.jpg)
+[![Marka Tescil Tanıtım Görseli](screenshots/marka-tescil-tanitim.jpg)](screenshots/marka-tescil-tanitim.jpg)
 
 ---
 
@@ -64,7 +64,7 @@ WISECP'te "ürün" (Product) modülleri kendi başına genel-erişimli bir sayfa
 Tüm yapılandırma, yönetim paneli → Ürünler → **FonMarkaTescil** üzerinden, aşağıdaki sekmelerle yapılır.
 
 ### Genel Ayarlar <span id="genel-ayarlar"></span>
-![Genel Ayarlar](https://fonwise.com/addons/wisecp-marka-tescil/marka-tescil-genel-ayarlar.jpg)
+[![Genel Ayarlar](screenshots/marka-tescil-genel-ayarlar.jpg)](screenshots/marka-tescil-genel-ayarlar.jpg)
 
 - **Widget Başlığı**: Başvuru formunun üstünde görünecek başlık metni (çok dilli).
 - **Alt Başlık / Açıklama**: Başvuru formunun üstünde görünecek açıklama metni (çok dilli).
@@ -83,7 +83,7 @@ Tüm yapılandırma, yönetim paneli → Ürünler → **FonMarkaTescil** üzeri
 ---
 
 ### Fiyat Ayarları <span id="fiyat-ayarlari"></span>
-![Fiyatlandırma Ayarlar](https://fonwise.com/addons/wisecp-marka-tescil/marka-tescil-fiyat-ayarlari.jpg)
+[![Fiyatlandırma Ayarlar](screenshots/marka-tescil-fiyat-ayarlari.jpg)](screenshots/marka-tescil-fiyat-ayarlari.jpg)
 
 Fiyatlar aylık değil, başvuru başına ücrettir. TÜRKPATENT resmi harç tutarları her yıl güncellenmektedir. Marka sınıfı seçimine göre kademeli ücretlendirme burada tanımlanır:
 
@@ -107,7 +107,7 @@ Tanımladığınız kampanyalar, başvuru formunda müşteriye de otomatik olara
 ---
 
 ### Marka Sınıfları (Nice Sınıflandırması) <span id="marka-siniflari"></span>
-![Marka Tescil Sınıfları](https://fonwise.com/addons/wisecp-marka-tescil/marka-tescil-sinif-ayarlari.jpg)
+[![Marka Tescil Sınıfları](screenshots/marka-tescil-sinif-ayarlari.jpg)](screenshots/marka-tescil-sinif-ayarlari.jpg)
 
 Nice Sınıflandırması'nın 45 sınıfının tamamı sistemde hazır tanımlıdır. Bu sekmeden **hangi sınıfların** müşterilere sunulacağını (aktif/pasif) seçersiniz. Yalnızca burada aktif işaretlenen sınıflar başvuru formunda ve admin düzenleme ekranında seçilebilir olur.
 
@@ -116,7 +116,7 @@ Nice Sınıflandırması'nın 45 sınıfının tamamı sistemde hazır tanımlı
 ---
 
 ### Örnek Belgeler <span id="ornek-belgeler"></span>
-![Gerekli Örnek Belgeler](https://fonwise.com/addons/wisecp-marka-tescil/marka-tescil-belge-ayarlari.jpg)
+[![Gerekli Örnek Belgeler](screenshots/marka-tescil-belge-ayarlari.jpg)](screenshots/marka-tescil-belge-ayarlari.jpg)
 
 Başvuru için müşteriden istenecek belgeleri (örn. vekaletname) burada tanımlarsınız — her belge için ad ve bir FontAwesome simgesi (örn. `fa-regular fa-file-lines`) girilir. Müşteri panelinde bu tanımlara göre yükleme alanları otomatik oluşur.
 - **Yeni Belge Ekle**: Yeni bir belge tanımı ekler.
@@ -127,7 +127,7 @@ Başvuru için müşteriden istenecek belgeleri (örn. vekaletname) burada tanı
 ---
 
 ### SEO Ayarları <span id="seo-ayarlari"></span>
-![SEO Ayarları](https://fonwise.com/addons/wisecp-marka-tescil/marka-tescil-seo-ayarlari.jpg)
+[![SEO Ayarları](screenshots/marka-tescil-seo-ayarlari.jpg)](screenshots/marka-tescil-seo-ayarlari.jpg)
 
 Başvuru formunun her dil için görüneceği **SEO dostu adresi** burada belirlersiniz (örn. Türkçe için `marka-tescili`, İngilizce için `trademark-application`). Slug'ları girip kaydettiğinizde, sayfa aşağıda sizin için hazır bir `.htaccess` kod bloğu üretir.
 
@@ -146,11 +146,11 @@ Müşterileriniz başvuru formuna iki şekilde ulaşabilir:
 
 Form üzerinde müşteri marka adını yazar, sınıflarını seçer (ücret anlık hesaplanır) ve sepete ekler. Tanımlı kampanya fiyatlarınız varsa (bkz. [Admin Ayarları → Fiyat](#fiyat-ayarlari)), formun altında müşteriye bunları gösteren bir "Kampanyalı Fiyatlar" şeridi otomatik olarak görünür — ayrıca bir işlem yapmanız gerekmez.
 
-![Kapanyalı Fiyat Bildirimi](https://fonwise.com/addons/wisecp-marka-tescil/modul-kampanyali-fiyat-bildirim.jpg)
+[![Kapanyalı Fiyat Bildirimi](screenshots/modul-kampanyali-fiyat-bildirim.jpg)](screenshots/modul-kampanyali-fiyat-bildirim.jpg)
 
 Sipariş tamamlandıktan sonra müşteri, kendi panelinden (Siparişlerim) sürecin tamamını takip eder:
 
-![Süreç Takip](https://fonwise.com/addons/wisecp-marka-tescil/modul-surec-takip.jpg)
+[![Süreç Takip](screenshots/modul-surec-takip.jpg)](screenshots/modul-surec-takip.jpg)
 
 1. **Başvuru Alındı** — sipariş oluşturulduğu an.
 2. **TÜRKPATENT'e Başvuru Yapıldı** — siz başvuru numarasını girdiğinizde.
@@ -165,7 +165,7 @@ Aynı ekrandan müşteri, tanımladığınız belgeleri de yükleyip durumların
 
 Bir siparişin detay sayfasında (Siparişler → ilgili sipariş → **Otomasyon Ayarları** sekmesi) şu araçlar bulunur:
 
-![Sipariş Yönetimi](https://fonwise.com/addons/wisecp-marka-tescil/marka-tescil-siparis-otomasyon.jpg)
+[![Sipariş Yönetimi](screenshots/marka-tescil-siparis-otomasyon.jpg)](screenshots/marka-tescil-siparis-otomasyon.jpg)
 
 ### Marka Adı / Sınıf Düzeltme
 
