@@ -37,7 +37,15 @@ WISECP'te "ürün" (Product) modülleri kendi başına genel-erişimli bir sayfa
 
 ## 2. Kurulum <span id="kurulum"></span>
 
-[![Kurulum ve Kullanım Videosu](screenshots/marka-tescil-kurulum-video.jpg)](https://fonwise.com/addons/wisecp-marka-tescil/marka-tescil-kurulum-kullanim.mp4)
+<p align="center">
+  <a href="https://fonwise.com/addons/wisecp-marka-tescil/marka-tescil-kurulum-kullanim.mp4" target="_blank">
+    <img src="screenshots/marka-tescil-kurulum-video.jpg" alt="Kurulum ve Kullanım videosu" width="720">
+  </a>
+  <br>
+  <strong>Kurulum ve Kullanım Videosunu İzle</strong>
+  <br>
+  <sub>Videoyu açmak için görsele tıklayın.</sub>
+</p>
 
 1. **Modül dosyalarını yükleyin.** Her iki modül klasörünü de WISECP kurulumunuza kopyalayın:
    - `coremio/modules/Product/FonMarkaTescil/`
@@ -193,8 +201,15 @@ Süreç sonuçlandığında (Tescil Edildi / Reddedildi / İtiraz Edildi / Diğe
 ---
 
 ## 6. FonPageBuilder ile Sayfa Zenginleştirme <span id="fonpagebuilder-ile-sayfa-zenginlestirme"></span>
-
-[![FonPageBuilder Kullanım Videosu](screenshots/marka-tescil-fonpagebuilder-video.jpg)](https://fonwise.com/addons/wisecp-marka-tescil/marka-tescil-fonpagebuilder-sayfasi.mp4)
+<p align="center">
+  <a href="https://fonwise.com/addons/wisecp-marka-tescil/marka-tescil-fonpagebuilder-sayfasi.mp4" target="_blank">
+    <img src="screenshots/marka-tescil-fonpagebuilder-video.jpg" alt="FonPageBuilder Sayfa Kullanım videosu" width="720">
+  </a>
+  <br>
+  <strong>FonPageBuilder Sayfa Oluşturme ve Kullanım Videosunu İzle</strong>
+  <br>
+  <sub>Videoyu açmak için görsele tıklayın.</sub>
+</p>
 
 Sitenizde **FonPageBuilder** kuruluysa, başvuru formunu tek başına bir sayfaya hapsetmek zorunda değilsiniz. Sayfa oluşturucudaki widget listesinde **"Marka Tescil Başvuru Formu"** adlı bir bileşen görürsünüz (yalnızca FonMarkaTescil modülü kurulu ve aktifken listede görünür) — bu widget'ı, üstüne bir tanıtım (hero) bölümü, altına detaylı bilgilendirme ekleyebileceğiniz herhangi bir sayfaya sürükleyip bırakabilirsiniz. Widget'ın kendine ait bir ayarı yoktur; formun kendisi (başlık, buton metni, sınıflar vb.) yine FonMarkaTescil'in kendi admin ayarlarından yönetilmeye devam eder.
 
