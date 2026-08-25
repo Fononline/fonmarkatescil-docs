@@ -1,6 +1,6 @@
 # FonMarkaTescil — Kurulum ve Kullanım Kılavuzu
 
-Bu kılavuz, **FonMarkaTescil** marka tescil başvuru yönetim modülünün WISECP panelinize kurulumunu, yapılandırılmasını ve gündelik kullanımını anlatır.
+Bu kılavuz, **WISECP Marka Tescil - TÜRKPATENT Başvuru ve Süreç Takibi** adlı marka tescil başvuru yönetim modülünün WISECP panelinize kurulumunu, yapılandırılmasını ve gündelik kullanımını anlatır.
 
 [![Marka Tescil Tanıtım Görseli](screenshots/marka-tescil-tanitim.jpg)](screenshots/marka-tescil-tanitim.jpg)
 
