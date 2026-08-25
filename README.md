@@ -39,7 +39,7 @@ WISECP'te "ürün" (Product) modülleri kendi başına genel-erişimli bir sayfa
 
 <p align="center">
   <a href="https://fonwise.com/addons/wisecp-marka-tescil/marka-tescil-kurulum-kullanim.mp4" target="_blank">
-    <img src="screenshots/marka-tescil-kurulum-video.jpg" alt="Kurulum ve Kullanım videosu" width="720">
+    <img src="screenshots/marka-tescil-kurulum-video.jpg" alt="Kurulum ve Kullanım videosu">
   </a>
   <br>
   <strong>Kurulum ve Kullanım Videosunu İzle</strong>
@@ -203,7 +203,7 @@ Süreç sonuçlandığında (Tescil Edildi / Reddedildi / İtiraz Edildi / Diğe
 ## 6. FonPageBuilder ile Sayfa Zenginleştirme <span id="fonpagebuilder-ile-sayfa-zenginlestirme"></span>
 <p align="center">
   <a href="https://fonwise.com/addons/wisecp-marka-tescil/marka-tescil-fonpagebuilder-sayfasi.mp4" target="_blank">
-    <img src="screenshots/marka-tescil-fonpagebuilder-video.jpg" alt="FonPageBuilder Sayfa Kullanım videosu" width="720">
+    <img src="screenshots/marka-tescil-fonpagebuilder-video.jpg" alt="FonPageBuilder Sayfa Kullanım videosu">
   </a>
   <br>
   <strong>FonPageBuilder Sayfa Oluşturme ve Kullanım Videosunu İzle</strong>
